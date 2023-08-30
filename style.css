@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: rgb(28, 28, 37);
+    color: white;
+  }
+  header{
+    position: sticky;
+    top: 0;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(1, 1, 14);
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li {
+    list-style: none;
+    margin: 0 23px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  nav ul li a:hover {
+    color: rgb(151, 151, 215);
+    font-size: 1.04rem;
+  }
+  .left {
+    font-size: 25px;
+  }
+  .firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 110px 0;
+  }
+  .firstsection > div {
+    width: 30%;
+  }
+  .leftsection {
+    font-size: 2.5rem;
+  }
+
+  .leftsection .btn {
+    padding: 5px;
+    background: rgba(98, 11, 120, 0.756);
+    border: 4px solid rgb(53, 49, 49);
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+    
+  }
+  
+  .leftsection .btn:hover {
+    background:rgb(25, 25, 32) ;
+    color: rgb(176, 189, 176);
+    border: 3px solid rgb(84, 64, 16);
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .rightsection img {
+    width: 80%;
+  }
+  main hr{
+    border:0;
+    background-color: rgb(109, 138, 164);
+    height: 1.2px;
+    margin: 40px 84px;
+  }
+  .purple {
+    color: rgba(98, 11, 120, 0.756);
+  }
+  .text-gray{
+    color: gray;
+  }
+  #element{
+    color:rgba(98, 11, 120, 0.756) ;
+  }
+  .secondsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+  }
+  .secondsection h1{
+    font-size: 1.9rem;
+  }
+
+  .secondsection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+  }
+
+  .secondsection .vertical {
+      background-color: white;
+      height: 93px;
+      width: 1px;
+      margin:0 auto ;
+  }
+
+  .image-top {
+    width: 30px;
+    position: relative;
+    top: -30px;
+    left: -14px;
+  }
+
+  .secondsection .vertical-title {
+    position: relative;
+    top: 75px;
+    font-weight: bold;
+  }
+
+  .secondsection .vertical-desc {
+    position: relative;
+    top: 85px;
+    width: 150px;
+    font-size: 12px;
+    color: gray;
+    
+  }
+
+  footer {
+    background-color: rgb(73, 43, 51);
+    color: black;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 23px 122px;
+  }
+
+  .footer .footer-first h3 {
+    position: relative;
+    top: 10px;
+    left: -90px;
+  } 
+
+  .footer > div {
+    width: 223px;
+  }
+
+  footer .copyright {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+  }
